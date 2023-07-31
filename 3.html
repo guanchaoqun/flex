@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="box">
+        <span class="item">
+
+        </span>
+        <span class="item">
+
+        </span>
+    </div>
+
+</body>
+<style>
+    body{
+        background: black;
+    }
+    .box{
+        width: 100px;
+        height: 100px;
+        background:antiquewhite;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+        
+    .item{
+        width: 33px;
+        height: 33px;
+        background-color: black;
+        border-radius: 50%;
+
+    }
+    .box{
+        display: flex;
+        /* justify-content: space-around; */
+        /* justify-content: space-between; */
+        /* flex-direction: column; */
+        /* align-items:center */
+        /* align-items:flex-end */
+    }
+
+    .box{
+        justify-content: space-between;
+        /* justify-content: space-around; */
+        flex-direction: column;
+    }
+
+    .item:nth-child(2){
+        /* align-self: center; */
+        align-self: flex-end;
+    }
+
+
+</style>
+</html>
